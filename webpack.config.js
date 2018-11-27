@@ -1,11 +1,3 @@
-/*
-* @Author: Rosen
-* @Date:   2016-11-20 13:19:28
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-03-21 18:13:41
-* 知识点：css单独打包、全局jquery引用、各种loader
-*/
-
 var webpack             = require('webpack');
 var path                = require('path');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
@@ -26,7 +18,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.qiongmaomall.top/admin/dist/' : '/dist/',  
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.qiongmiaomall.top/admin/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
@@ -86,7 +78,7 @@ var config = {
             favicon         : './favicon.ico',
             inject          : true,
             hash            : true,
-            chunks          : ['vendors','app'],
+            chunks          : ['vendors', 'app'],
             chunksSortMode  : 'dependency',
             minify          : {
                 removeComments: true,
