@@ -86,7 +86,7 @@ var config = {
             favicon         : './favicon.ico',
             inject          : true,
             hash            : true,
-            chunks          : [ 'app','vendors'],
+            chunks          : ['vendors'],
             chunksSortMode  : 'dependency',
             minify          : {
                 removeComments: true,
