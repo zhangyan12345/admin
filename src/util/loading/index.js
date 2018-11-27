@@ -1,9 +1,3 @@
-/**
- * @author Rayhahah
- * @blog http://rayhahah.com
- * @time 2017/11/16
- * @fuction
- */
 
 require('./index.css');
 var _loading = {

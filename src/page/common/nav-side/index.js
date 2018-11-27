@@ -1,10 +1,3 @@
-/**
- * @author Rayhahah
- * @blog http://rayhahah.com
- * @time 2017/11/13
- * @fuction
- */
-
 require('./index.css');
 var _rm = require('util/rm.js');
 var _user = require('service/user-service.js');
