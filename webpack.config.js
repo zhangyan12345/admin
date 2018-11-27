@@ -18,7 +18,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.qiongmiaomall.top/admin/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.qiongmaomall.top/admin/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
