@@ -1,6 +1,3 @@
-/**
- * Created by leizh on 2017/10/25.
- */
 //获取目录路径
 const path = require('path');
 //获取webpack对象
