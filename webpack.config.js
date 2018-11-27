@@ -87,7 +87,7 @@ var config = {
             inject          : true,
             hash            : true,
             chunks          : ['vendors', 'app'],
-            chunksSortMode  : 'dependency',
+            chunksSortMode  : 'auto',
             minify          : {
                 removeComments: true,
                 collapseWhitespace: false
