@@ -1,10 +1,10 @@
-var Hogan = require('hogan');
+var Hogan = require('hogan.js');
 var _dialog = require('util/dialog/index.js');
 var _loading = require('util/loading/index.js');
 require("exports?window.anno!./ajaxfileupload.js");
 //服务器主机地址配置
 var conf = {
-    serverHost: 'http://admin.qiongmaomall.top'
+    serverHost: '//localhost:8888/'
 };
 var _rm = {
     // ajaxfileupload插件上传文件

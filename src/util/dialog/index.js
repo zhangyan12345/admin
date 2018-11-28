@@ -1,6 +1,6 @@
 
 require('./index.css');
-var Hogan = require('hogan');
+var Hogan = require('hogan.js');
 var templateDialog = require('./index.string');
 
 var _dialog = {
