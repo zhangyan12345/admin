@@ -1,7 +1,7 @@
 {
-  "name": "raymall-admin",
+  "name": "qiongmaomall-admin",
   "version": "1.0.0",
-  "description": "Raymall后台管理系统",
+  "description": "穷猫后台管理系统",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
