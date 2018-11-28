@@ -4,7 +4,7 @@ var _loading = require('util/loading/index.js');
 require("exports?window.anno!./ajaxfileupload.js");
 //服务器主机地址配置
 var conf = {
-    serverHost: '//localhost:8888/'
+    serverHost: 'http://admin.qiongmaomall.top'
 };
 var _rm = {
     // ajaxfileupload插件上传文件
