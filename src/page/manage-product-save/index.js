@@ -255,7 +255,7 @@ var _productSave = {
                 }
             }
         } else {
-            $('.sub-image').html('<p class="">选择图片吧！垃圾！</p>');
+            $('.sub-image').html('<p class="">选择图片吧！</p>');
         }
     },
     //初始化富文本编辑器
