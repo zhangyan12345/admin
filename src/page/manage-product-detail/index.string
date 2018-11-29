@@ -4,7 +4,7 @@
 </div>
 <div class="form-group ">
     <span class="btn btn-warning product-detail-title">商品描述：</span>
-    <span class="product-detail-text forn-control">{{subtitle}}</span>
+    <span class="product-detail-text forn-control">{{subTitle}}</span>
 </div>
 <div class="form-group ">
     <span class="btn btn-warning product-detail-title">当前状态：</span>
